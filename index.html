@@ -80,20 +80,20 @@
     </section>
     <section class="contacto" id="contacto">
         <h2 class="heading">Contactame!</h2>
-        <form action="#">
+        <form name="contact" method="POST" data-netlify="true">
             <div class="input-box">
-                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                <input type="email" class="form-input" placeholder="nombre completo" required>
+                <label class="form-label">Nombre</label>
+                <input name="name" type="text" class="form-input" placeholder="nombre completo" required>
             </div>
             <div class="input-box">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-input" placeholder="name@example.com">
+                <label class="form-label">Email address</label>
+                <input name="email" type="email" class="form-input" placeholder="name@example.com">
             </div>
             <div class="textarea-field">
-                <textarea class="form-input" name="" id="" cols="30" rows="10" placeholder="Escriba su mensaje..." required></textarea>
+                <textarea name="mensaje" class="form-input" name="" id="" cols="30" rows="10" placeholder="Escriba su mensaje..." required></textarea>
             </div>
             <div class="button-form">
-                <button>Enviar</button>
+                <button type="submit">Enviar</button>
             </div>
         </form>
     </section>
