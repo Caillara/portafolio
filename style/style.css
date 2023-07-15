@@ -309,6 +309,19 @@ form {
 .icons-portafolio i{
     font-size: 30px;
 }
+.header-card-portafolio a{
+    color: #ededed;
+}
+.header-card-portafolio a i{
+    font-size: 30px;
+}
+.header-card-portafolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 4px;
+}
 .modal {
     position: fixed;
     z-index: 9999;
